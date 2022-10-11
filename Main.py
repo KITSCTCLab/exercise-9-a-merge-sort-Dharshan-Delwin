@@ -1,7 +1,11 @@
 from typing import List
 
 def merge_sort(data) -> None:
-  # Write code here
+  if(lb<ub):
+     mid = lb+ub/2
+      merge_sort(data,lb,mid)
+      mrge_sort(data,mid+1,ub)
+      Merge(lb,mid,ub)
 
 
 # Do not change the following code
